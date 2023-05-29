@@ -1,0 +1,73 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  background-color: lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+.items {
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+  margin: 0px 10px;
+}
+
+.welcome {
+  margin: 0px;
+  background-color: lightsteelblue;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+.section-title {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.sections {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+section {
+  background-color: lightslategrey;
+  width: 45%;
+  height: 150px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: lightsteelblue;
+  border: none;
+  padding: 10px 7px;
+  margin: 15px;
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}

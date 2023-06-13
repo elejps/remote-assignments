@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/syun/remote-assignments/Week-3/Assignment-4/wwwroot/addmyname.html",
+      "PackagePath": "staticwebassets/addmyname.html"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.Assignment-4.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.Assignment-4.props",
+      "PackagePath": "build\\Assignment-4.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Assignment-4.props",
+      "PackagePath": "buildMultiTargeting\\Assignment-4.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Assignment-4.props",
+      "PackagePath": "buildTransitive\\Assignment-4.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

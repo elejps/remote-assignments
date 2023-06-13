@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "q4YZ3HDJA3NroeiH5aKtiIAdCXHHHUqiYjiQsMMHEp0=",
+  "Source": "Assignment-4",
+  "BasePath": "_content/Assignment-4",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Assignment-4/wwwroot",
+      "Source": "Assignment-4",
+      "ContentRoot": "/Users/syun/remote-assignments/Week-3/Assignment-4/wwwroot/",
+      "BasePath": "_content/Assignment-4",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/syun/remote-assignments/Week-3/Assignment-4/wwwroot/addmyname.html",
+      "SourceId": "Assignment-4",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/syun/remote-assignments/Week-3/Assignment-4/wwwroot/",
+      "BasePath": "_content/Assignment-4",
+      "RelativePath": "addmyname.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/addmyname.html"
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7qF6/5PnBKolsThomQOS9Ov/48t6mbnbdZR+SQzg96nswNPgIuAkg1v90WxOa+0Gi029jFZiT14lifrAhI86ew==",
+  "dgSpecHash": "LlirdILTeoWgasP0q1yLSVEj0l8oT8WJurWdYgu8te0CtxLiIGq+v73zEUVFUSabdVt5C2/YbIF8EZ+gQytfoQ==",
   "success": true,
-  "projectFilePath": "/Users/syun/Assignment-2/Assignment-2.csproj",
+  "projectFilePath": "/Users/syun/remote-assignments/Week-3/Assignment-2/Assignment-2.csproj",
   "expectedPackageFiles": [
     "/Users/syun/.nuget/packages/microsoft.aspnetcore.openapi/7.0.5/microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
     "/Users/syun/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

@@ -465,11 +465,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/syun/Assignment-2/Assignment-2.csproj",
+      "projectUniqueName": "/Users/syun/remote-assignments/Week-3/Assignment-2/Assignment-2.csproj",
       "projectName": "Assignment-2",
-      "projectPath": "/Users/syun/Assignment-2/Assignment-2.csproj",
+      "projectPath": "/Users/syun/remote-assignments/Week-3/Assignment-2/Assignment-2.csproj",
       "packagesPath": "/Users/syun/.nuget/packages/",
-      "outputPath": "/Users/syun/Assignment-2/obj/",
+      "outputPath": "/Users/syun/remote-assignments/Week-3/Assignment-2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/syun/.nuget/NuGet/NuGet.Config"

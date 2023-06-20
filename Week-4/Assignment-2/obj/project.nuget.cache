@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "w0i5VedncGAckcyetNh8JjzpJGf00lXOlc/8OQ3ZmS7ZXTOWIMqbeUVwJv+FjCnz+TpQUiFDytrJicYxaXyT3A==",
+  "success": true,
+  "projectFilePath": "/Users/syun/Co/ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "/Users/syun/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/Users/syun/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

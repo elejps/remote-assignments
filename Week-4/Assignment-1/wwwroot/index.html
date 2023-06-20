@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>User Registration</title>
+    <style>
+        .content {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button onclick="showDiv('login')">Login</button>
+        <button onclick="showDiv('register')">Register</button>
+    </div>
+    <div id="registerDiv" class="content">
+        <h1>User Registration</h1>
+        <form id="registerForm" action="/api/register" method="post">
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div>
+                <input type="submit" value="Register">
+            </div>
+        </form>
+    </div>
+    <div id="loginDiv" class="content" style="display: block;">
+        <h1>User Login</h1>
+        <form id="loginForm" action="/api/login" method="post">
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="login_email" name="email" required>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="login_password" name="password" required>
+            </div>
+            <div>
+                <input type="submit" value="Login">
+            </div>
+        </form>
+    </div>
+
+
+    <script>
+
+        function showDiv(divName) {
+            // 隐藏所有内容
+            var contents = document.getElementsByClassName('content');
+            for (var i = 0; i < contents.length; i++) {
+                contents[i].style.display = 'none';
+            }
+
+            // 顯使選中的内容
+            var selectedDiv = document.getElementById(divName + 'Div');
+            selectedDiv.style.display = 'block';
+        }
+
+        const registerForm = document.getElementById('registerForm');
+        const loginForm = document.getElementById('loginForm');
+
+        registerForm.addEventListener('submit', async (event) => {
+            event.preventDefault();
+
+            const formData = new FormData(registerForm);
+            const response = await fetch('/api/register', {
+                method: 'POST',
+                body: formData
+            });
+
+            if (response.ok) {
+                window.location.href = '/member.html';
+            } else {
+                const errorMessage = await response.text();
+                alert(errorMessage);
+            }
+        });
+
+        loginForm.addEventListener('submit', async (event) => {
+            event.preventDefault();
+
+            const formData = new FormData(loginForm);
+            const response = await fetch('/api/login', {
+                method: 'POST',
+                body: formData
+            });
+
+            if (response.ok) {
+                window.location.href = '/member.html';
+            } else {
+                const errorMessage = await response.text();
+                alert(errorMessage);
+            }
+        });
+    </script>
+</body>
+</html>
